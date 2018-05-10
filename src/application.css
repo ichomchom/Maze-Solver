@@ -1,0 +1,72 @@
+
+.OUT{
+	-fx-background-color:	lightskyblue ;
+	-fx-alignment: center;
+	-fx-border-style:solid;
+	-fx-stroke:red;
+	-fx-min-width:45;
+	-fx-min-height:45;
+	
+	}
+	
+.HBOX{
+
+	-fx-alignment:top-center;
+	-fx-background-color:lime;
+	
+}
+.GRID{
+  
+   -fx-background-color: 	cornsilk;
+  -fx-alignment: center;
+
+    -fx-border-color:black;
+   
+   
+	fx-grid-lines-visible:	true;
+	-fx-min-width:45;
+	-fx-min-height:45;
+}
+
+.BLK{
+	-fx-background-color: lightskyblue;
+}
+
+.NOR{
+	-fx-background-color:cornsilk;
+}
+.SOLVE{
+	-fx-background-color:black;
+	}
+.WRONG{
+	-fx-background-color:yellow;
+	}
+
+.LB{
+	-fx-background-color:brown;
+	-fx-alignment:center;
+	-fx-text-fill:red;
+	-fx-graphic-text-gap:10;
+	-fx-content-display: center;
+	-fx-min-width:45;
+	-fx-min-height:45;
+}
+.S{
+	-fx-text-fill:pink;
+}
+.TXT{
+	-fx-text-fill:gray;
+	-fx-font-style:italic;
+	-fx-font-style:"Arial Black";
+	-fx-font-size:40;
+	-fx-alignment:center;
+	-fx-font-weight:bold;
+	-fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+.btn{
+	-fx-text-fill: white;
+    -fx-font-family: "Arial Narrow";
+    -fx-font-weight: bold;
+    -fx-background-color: linear-gradient(#61a2b1, #2A5058);
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
